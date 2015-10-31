@@ -1,0 +1,146 @@
+/* Designed by Ravi */
+
+body
+{
+font-family: Calibri;
+font-size: 18px;
+/*	background: #000000;*/
+background: url(../images/background.jpeg);
+
+}
+
+
+#wrap {
+margin-left:auto;
+margin-right:auto;
+width:900px;
+color: #BABABA;
+}
+
+a:link {color:#FF0000;}    /* unvisited link */
+a:visited {color:#00FF00;} /* visited link */
+a:hover {color:#FF00FF;}   /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+
+
+img
+{
+border: 0;
+}
+
+#main
+{
+width:auto;
+height:auto;
+float:left;
+}
+
+#sidebar
+{
+float:right;
+text-align:right;
+}
+
+/* copied for Navigation */
+
+div.bottombar{ /* bar that runs across the bottom of the menu */
+height: 10px;
+background: #FF0000;
+}
+
+ul.semiopaquemenu{ /* main menu UL */
+font: bold 14px Georgia;
+width: 100%;
+background: #333333;
+padding: 11px 0 8px 0; /* padding of the 4 sides of the menu */
+margin: 0;
+text-align: left; /* set value to "left", "center", or "right" to align menu accordingly */
+}
+
+ul.semiopaquemenu li{
+display: inline;
+}
+
+ul.semiopaquemenu li a{
+color:#BABABA;
+padding: 6px 8px 6px 8px; /* padding of the 4 sides of each menu link */
+margin-right: 15px; /* spacing between each menu link */
+text-decoration: none;
+}
+
+ul.semiopaquemenu li a:hover, ul.semiopaquemenu li a.selected{
+	color: #000;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjgyIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMC4xNiIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); /* IE9+ SVG equivalent  of linear gradients */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0.82) 0%, rgba(255,255,255,0.16) 100%); /* fade from white (0.82 opacty) to 0.16 opacity */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.82)), color-stop(100%,rgba(255,255,255,0.16)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+	background: linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1ffffff', endColorstr='#29ffffff',GradientType=0 );
+	-moz-box-shadow: 0 0 5px #595959; /* CSS3 box shadows */
+	-webkit-box-shadow: 0px 0px 5px #00FF99;
+	box-shadow: 0px 0px 10px #4D94FF;
+	padding-top: 12px; /* large padding to get menu item to protrude upwards */
+	padding-bottom: 20px; /* large padding to get menu item to protrude downwards */
+}
+
+/* Navigation is till here*/
+
+#footer {
+clear:both;
+padding:1px;
+color:#FFFFFF;
+background:#333333;
+}
+
+
+#index img
+{
+float:left;
+padding-right: 20px;
+border: none;
+}
+
+#footer a
+{
+text-decoration:none;
+}
+
+
+ul
+{
+list-style:none;
+}
+
+#main p {
+margin-left: 10px;
+}
+
+h3,h4 {
+margin-top: 25px;
+font-size: 25px;
+color:#B20000;
+text-transform:capitalize;
+}
+
+
+/* Gallary */
+
+#myreel
+{
+border:15px solid red;
+width: 50%;
+margin: 0 auto;
+}
+
+
+			
+/* Gallary */
+
+.img
+{
+padding:2px;
+}
